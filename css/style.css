@@ -645,6 +645,21 @@ body {
     line-height: 1; }
   .popup__close:hover {
     color: #55c57a; }
+  @media (max-width: 75em) {
+    .popup__content {
+      display: block; }
+    .popup__left {
+      display: block; }
+    .popup__right {
+      width: 100%;
+      vertical-align: middle;
+      padding: 3rem 5rem; }
+    .popup__img {
+      display: inline-block;
+      width: 40%; }
+    .popup__text {
+      -moz-column-count: 1;
+      column-count: 1; } }
 
 .footer {
   background-color: #333;

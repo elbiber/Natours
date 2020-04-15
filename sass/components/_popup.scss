@@ -83,5 +83,35 @@
         }
     }
 
+    @include respond(tab-land) {
+                
+        &__content {           
+            display: block;
+            
+        }
+
+        &__left {
+            display: block;
+           
+        }
+
+        &__right {
+            width: 100%;
+           
+            vertical-align: middle;
+            padding: 3rem 5rem;
+        }
+
+        &__img {
+            display: inline-block;
+            width: 40%;
+        }
+
+        &__text {
+            -moz-column-count: 1;
+            column-count:1;
+        }
+
+    }
 
 }
